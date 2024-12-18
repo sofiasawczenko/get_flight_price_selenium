@@ -44,8 +44,9 @@ To start the script manually, simply run:
 
    ```bash
 python flight_price_tracker.py
-The script will scrape the price, save it to the file, and then wait for the next scheduled run in 2 weeks.
 ```
+The script will scrape the price, save it to the file, and then wait for the next scheduled run in 2 weeks.
+
 ### Scheduling
 The script is scheduled to run automatically every 2 weeks. You can adjust the scheduling frequency by modifying the schedule.every(2).weeks.do(get_flight_price) line in the code to other intervals, such as days, hours, or minutes.
 
